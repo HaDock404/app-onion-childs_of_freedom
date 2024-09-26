@@ -18,6 +18,8 @@ This guide walks you through installing and configuring Tor and Nginx to host a 
 - [Start the Web Server](#Start-the-Web-Server)
 - [Deploy Your Website](#Deploy-Your-Website)
 - [Restart Nginx](#Restart-Nginx)
+- [Status Nginx](#Status-Nginx)
+- [Stop Nginx](#Stop-Nginx)
 - [Contributing](#Contributing)
 - [License](#License)  
 
@@ -110,6 +112,22 @@ Finally, restart Nginx to apply changes:
 ```bash
 sudo systemctl restart nginx
 ```   
+
+## Status Nginx  
+
+Finally, restart Nginx to apply changes:  
+
+```bash
+sudo systemctl status nginx
+``` 
+
+## Stop Nginx  
+
+Finally, restart Nginx to apply changes:  
+
+```bash
+sudo systemctl stop nginx
+``` 
 
 ## Contributing
 
